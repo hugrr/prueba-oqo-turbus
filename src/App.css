@@ -1,38 +1,174 @@
-.App {
+@font-face {
+  font-family: Lato-Regular;
+  src: url("./assets/font/Lato-Regular.ttf");
+}
+
+p,
+span,
+h1,
+h2,
+h3 {
+  font-family: Lato-Regular;
+}
+
+/*header*/
+.navbar {
+  height: 100px;
+}
+.img {
+  width: 68%;
+}
+
+.share-title {
+  font-size: 30px;
+  margin-left: 45%;
+  color: white;
+  margin-bottom: 10px;
+  font-family: Lato-Regular;
+}
+.share {
+  color: white;
+  margin-right: 235px;
+}
+.logo-header {
+  height: 7vmin;
+  color: white;
+  margin-left: 220px;
+}
+
+/*body*/
+.body {
+  background-image: url("./assets/images/png/fondopng.png");
+
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.title-contetent {
   text-align: center;
+  margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.turclub-button {
+  height: 60px;
+  width: 350px;
+  font-family: Lato-Regular;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+.text-content {
+  margin-bottom: 50px;
+}
+.turclub {
+  padding-bottom: 30px !important;
+  color: rgb(65, 60, 60);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*componente map*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.map {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 320px;
+  height: 55px;
+  margin-left: 250px;
+  font-size: 40px;
+  color: white;
+  padding-top: 20px;
+}
+.maptitle {
+  font-size: 30px;
+}
+
+.list-checkbox {
+  font-size: 20px;
+  margin-left: 275px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.form-check p {
+  font-size: 28px;
+  margin-left: 40px;
+  padding-bottom: 12px;
+  font-family: Lato-Regular;
+}
+input[type="checkbox"] {
+  transform: scale(2.5);
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.box {
+  height: 375px;
+  width: 300px;
+  border: 1px solid #4e4e4e;
+  font: 16px Arial, Serif;
+  overflow: auto;
+  margin-left: 250px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+.map.btn {
+  width: 300px;
+  height: 55px;
+  margin-top: 8px;
+}
+.imagenMap {
+  position: absolute;
+  width: 72%;
+
+  margin-left: 560px;
+}
+
+/*Footer*/
+
+.footer {
+  margin-top: 150px;
+  padding-top: 30px;
+  height: 320px;
+  width: 100%;
+  font-family: Lato-Regular;
+  font-size: 14px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  height: 7vmin;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-info {
+  margin-left: 130px;
+}
+.footer-infostart {
+  font-size: 15px;
+}
+.footer-infocenter {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.footer-infoend {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.logoheader {
+  height: 7vmin;
+  color: white;
+  margin-left: 205px;
+}
+.title-logo {
+  font-size: 16px;
+}
+.title-footer-center {
+  margin-top: 60px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.title-footer-end {
+  margin-top: 30px;
+  font-size: 15px;
+  margin-bottom: 25px;
 }
